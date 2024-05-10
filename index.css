@@ -1,0 +1,81 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+
+#main-container {
+    margin-top: 3em;
+    background-color: #F4F4F4;
+    min-width: 500px;
+}
+
+#input-container {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    background-color: #6943FF;
+    color: white;
+    padding: 0.5em 2em;
+}
+
+#convert-btn {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0.7em 1.5em;
+    border-style: none;
+    margin-bottom: 1.5em;
+    min-width: 90px;
+    font-size: 0.9em;
+}
+
+#input-field {
+    margin-bottom: 1em;
+    border-color: #B295FF;
+    background-color: #6943FF;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    min-height: 70px;
+    width: 120px;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.conversion-container {
+    background-color: #FFFFFF;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    margin: 1em 2em;
+}
+
+.conversion-container h2 {
+    color: #5A537B;
+    font-size: 1.1em;
+}
+
+.conversion-container p {
+    color: #353535;
+}
